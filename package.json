@@ -1,0 +1,17 @@
+{
+  "name": "react-stickynotes",
+  "version": "0.0.1",
+  "description": "A simple react sticky notes web application.",
+  "main": "Notes.js",
+  "repository": "https://github.com/ImVidwanti/react-stickynotes.git",
+  "author": "ImVidwanti",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "react-tools": "^0.13.3"
+  },
+	"scripts": {
+    "start": "http-server -a localhost -p 3000 ./"
+  }
+}
